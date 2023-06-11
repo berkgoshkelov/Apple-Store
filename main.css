@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1351756759/photo/blue-curve-shapes-soft-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=l3d4NBJA1tppryMSNmogfovn2AnWFDhvV8I04oko9dg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#phone-sel {
+    font-size: 60px;
+    color: white;
+    font-family: monospace;
+    margin: 20px;
+
+}
+
+#box-h1 {
+    text-align: center;
+}
+
+hr {
+    height: 0.4em;
+    background-color: white;
+}
+
+#logoimg {
+    width: 8em;
+    height: auto;
+}
+
+.product {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5em;
+    width: 33%;
+    transition: 0.4s;
+
+}
+
+.product:hover {
+    transform: scale(1.2);
+}
+
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 1em 0;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.product-name {
+    color: white;
+}
+
+.image {
+    width: 45%;
+}

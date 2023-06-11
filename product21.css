@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1351756759/photo/blue-curve-shapes-soft-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=l3d4NBJA1tppryMSNmogfovn2AnWFDhvV8I04oko9dg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transform: translateY(8em);
+
+}
+
+.text-container {
+    flex: 1 1 auto;
+}
+
+.text-container h1 {
+    text-align: center;
+    color: white;
+    border: 5px solid rgb(78, 15, 131);
+    background-color: rgb(122, 17, 221);
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+#butona3 {
+    color: rgb(13, 164, 235);
+
+}
+
+#butona {
+    text-decoration: none;
+
+}
+
+#cartimg {
+    display: inline;
+    width: 20px;
+    height: auto;
+
+}
+
+#cartdiv {
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    background-color: rgb(122, 17, 221);
+    margin-top: 14em;
+
+}
+
+#cartdiv:hover {
+    transform: scale(1.2);
+}
+
+
+span {
+    color: white;
+    font-size: 19px;
+}
+
+.text-container p {
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    transform: translateY(4em);
+
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    transform: translateY(1.2em);
+}

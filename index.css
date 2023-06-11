@@ -1,0 +1,73 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid black;
+    display: inline;
+    border-radius: 15px;
+    padding: 15px 200px;
+    background-color: rgb(100, 100, 187);
+    font-family: sans-serif;
+
+
+}
+
+div {
+    text-align: center;
+
+}
+
+img {
+    display: inline;
+    width: 100px;
+}
+
+p {
+    margin-top: 2em;
+    font-size: 35px;
+    color: white;
+
+}
+
+body {
+    background-color: rgb(230, 226, 226);
+}
+
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1351756759/photo/blue-curve-shapes-soft-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=l3d4NBJA1tppryMSNmogfovn2AnWFDhvV8I04oko9dg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+#butona3 {
+    border: 5px solid black;
+    display: inline;
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: rgb(100, 100, 187);
+    color: black;
+    font-family: monospace;
+
+
+}
+
+#butona2 {
+    margin-top: 100px;
+    transition: 0.3s;
+}
+
+#butona2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
